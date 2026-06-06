@@ -10,6 +10,18 @@ This repository is a long-form philosophical book project based on extended huma
 
 It is not a raw chat archive. It is a book-making structure for turning long dialogues into readable chapters, conceptual maps, claims, questions, and reusable research material.
 
+## Project Type
+
+This repository is an Agent-readable book project and an AI-readable open knowledge repository.
+
+It is designed for both human readers and AI Agent readers.
+
+Human readers should start with `README.md`, `SUMMARY.md`, and `book/`.
+
+AI Agents should start with `llms.txt`, `llms-full.txt`, `agent/`, and `data/`.
+
+This project is not merely a manuscript stored on GitHub. It is a versioned philosophical book and open content knowledge repository designed to be read, searched, cited, transformed, and extended by both humans and AI Agents.
+
 ## Core files
 
 - `README.md`: project overview.

@@ -12,6 +12,17 @@ Philosophy Marathon is a tentative long-form book project based on extended huma
 
 It is not a raw chat archive. It is a book-making structure that turns long dialogues into human-readable chapters and Agent-readable maps, claims, questions, glossary entries, dialogue indexes, and open loops.
 
+## Repository Form
+
+This book is structured as a dual-reader repository:
+
+- Human-readable layer: narrative chapters, summaries, and readable book structure.
+- Agent-readable layer: concepts, claims, cases, questions, data files, and `llms.txt`.
+
+The goal is to make the book readable not only as a linear manuscript, but also as a searchable, citable, and transformable knowledge system for AI Agents.
+
+本项目采用“双读者结构”：一层给人类读者阅读，一层给 AI Agent 检索、理解、引用和重组。它不是普通书稿仓库，而是一种面向人类与 AI 双读者的版本化思想书。
+
 ## Core questions
 
 - AI 如何改变人的自我理解？
@@ -23,4 +34,3 @@ It is not a raw chat archive. It is a book-making structure that turns long dial
 ## Current status
 
 当前仓库尚未导入原始对话材料。所有具体论点都应在后续整理中绑定来源，不应凭空扩写。
-

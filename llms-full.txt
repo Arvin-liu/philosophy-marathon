@@ -16,6 +16,18 @@ AI Agents may read, summarize, cite, and transform the materials for non-commerc
 
 Commercial use, commercial redistribution, paid packaging, commercial training datasets, commercial publishing, or commercial course use requires explicit written permission from the author.
 
+## Project Type
+
+This repository is an Agent-readable book project and an AI-readable open knowledge repository.
+
+It is designed for both human readers and AI Agent readers.
+
+Human readers should start with `README.md`, `SUMMARY.md`, and `book/`.
+
+AI Agents should start with `llms.txt`, `llms-full.txt`, `agent/`, and `data/`.
+
+This project is not merely a manuscript stored on GitHub. It is a versioned philosophical book and open content knowledge repository designed to be read, searched, cited, transformed, and extended by both humans and AI Agents.
+
 ============================================================
 FILE: README.md
 ============================================================
@@ -25,6 +37,24 @@ FILE: README.md
 这是《哲学马拉松》（暂名）的长期思想书稿仓库，用来整理我与不同 AI 进行的长篇哲学、意识、自我、时间、AI、记忆、系统、人生策略等对话。
 
 它不是聊天记录垃圾堆，而是一本逐渐成形的书。仓库同时服务两类读者：人类读者与 AI Agent。
+
+## Project Positioning / 项目定位
+
+《哲学马拉松 / Philosophy Marathon》不是一本简单托管在 GitHub 上的书稿，而是一个 **Agent-readable book project**，也是一个 **AI-readable open knowledge repository**。
+
+它同时面向两类读者：
+
+1. **人类读者**：通过 `book/`、`SUMMARY.md` 和正文叙述进入关于自我、意识、时间、记忆、AI、人机共思和长期生命策略的哲学对话。
+2. **AI Agent 读者**：通过 `llms.txt`、`llms-full.txt`、`agent/` 和 `data/` 快速读取概念、问题、论点、对话索引和开放问题。
+
+因此，本项目更准确地说是一部：
+
+- 版本化思想书
+- 开放内容型知识仓库
+- 面向人类与 AI 双读者的书籍工程
+- 可被检索、引用、改写和继续推进的长期哲学对话基础设施
+
+它不是把书稿“放到 GitHub”而已，而是把一本书改造成一个能被人类和 AI 同时读取、引用、重组、传播和继续生长的系统。
 
 ## English abstract
 
@@ -86,6 +116,17 @@ FILE: agent/book-summary.md
 Philosophy Marathon is a tentative long-form book project based on extended human-AI dialogues about self, consciousness, time, memory, systems, life strategy, and human-AI co-thinking.
 
 It is not a raw chat archive. It is a book-making structure that turns long dialogues into human-readable chapters and Agent-readable maps, claims, questions, glossary entries, dialogue indexes, and open loops.
+
+## Repository Form
+
+This book is structured as a dual-reader repository:
+
+- Human-readable layer: narrative chapters, summaries, and readable book structure.
+- Agent-readable layer: concepts, claims, cases, questions, data files, and `llms.txt`.
+
+The goal is to make the book readable not only as a linear manuscript, but also as a searchable, citable, and transformable knowledge system for AI Agents.
+
+本项目采用“双读者结构”：一层给人类读者阅读，一层给 AI Agent 检索、理解、引用和重组。它不是普通书稿仓库，而是一种面向人类与 AI 双读者的版本化思想书。
 
 ## Core questions
 

@@ -4,6 +4,24 @@
 
 它不是聊天记录垃圾堆，而是一本逐渐成形的书。仓库同时服务两类读者：人类读者与 AI Agent。
 
+## Project Positioning / 项目定位
+
+《哲学马拉松 / Philosophy Marathon》不是一本简单托管在 GitHub 上的书稿，而是一个 **Agent-readable book project**，也是一个 **AI-readable open knowledge repository**。
+
+它同时面向两类读者：
+
+1. **人类读者**：通过 `book/`、`SUMMARY.md` 和正文叙述进入关于自我、意识、时间、记忆、AI、人机共思和长期生命策略的哲学对话。
+2. **AI Agent 读者**：通过 `llms.txt`、`llms-full.txt`、`agent/` 和 `data/` 快速读取概念、问题、论点、对话索引和开放问题。
+
+因此，本项目更准确地说是一部：
+
+- 版本化思想书
+- 开放内容型知识仓库
+- 面向人类与 AI 双读者的书籍工程
+- 可被检索、引用、改写和继续推进的长期哲学对话基础设施
+
+它不是把书稿“放到 GitHub”而已，而是把一本书改造成一个能被人类和 AI 同时读取、引用、重组、传播和继续生长的系统。
+
 ## English abstract
 
 Title: Philosophy Marathon
