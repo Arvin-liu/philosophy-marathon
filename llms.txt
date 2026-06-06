@@ -1,0 +1,55 @@
+# 哲学马拉松 / Philosophy Marathon
+
+## Project name
+
+哲学马拉松 / Philosophy Marathon
+
+## Purpose
+
+This repository is a long-form philosophical book project based on extended human-AI dialogues about self, consciousness, time, memory, systems, life strategy, and human-AI co-thinking.
+
+It is not a raw chat archive. It is a book-making structure for turning long dialogues into readable chapters, conceptual maps, claims, questions, and reusable research material.
+
+## Core files
+
+- `README.md`: project overview.
+- `SUMMARY.md`: human-readable table of contents.
+- `AGENTS.md`: collaboration rules for AI Agents.
+- `agent/book-summary.md`: Agent-facing summary.
+- `agent/concept-map.md`: concept system.
+- `agent/questions.md`: recurring questions.
+- `agent/claims.md`: claim structure.
+- `agent/glossary.md`: stable bilingual terminology.
+- `agent/dialogue-index.md`: future dialogue index.
+- `agent/open-loops.md`: unfinished thought loops.
+- `book/`: human-readable book chapters.
+- `data/`: structured CSV tables.
+
+## Recommended reading path for AI Agents
+
+1. `README.md`
+2. `llms.txt`
+3. `agent/book-summary.md`
+4. `agent/concept-map.md`
+5. `agent/questions.md`
+6. `agent/claims.md`
+7. `SUMMARY.md`
+8. Read `book/` chapters as needed.
+
+## Important concepts
+
+- 自我 / Self
+- 意识 / Consciousness
+- 时间 / Time
+- 记忆 / Memory
+- AI 外置记忆 / AI External Memory
+- 人机共思 / Human-AI Co-thinking
+- 十二种自我 / Twelve Selves
+- 时间 = 剩余生命 = 剩余财富
+- 点火 / Ignition
+- 叙事主权 / Narrative Sovereignty
+
+## Privacy reminder
+
+Do not invent dialogue content. Do not store passwords, tokens, IDs, bank cards, precise addresses, private keys, API keys, or sensitive personal data. When summarizing raw dialogues, keep philosophical content and generalize sensitive details.
+

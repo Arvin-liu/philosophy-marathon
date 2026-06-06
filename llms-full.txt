@@ -1,0 +1,443 @@
+# 哲学马拉松 / Philosophy Marathon - llms-full.txt
+
+This file concatenates the main reader-facing and Agent-facing files for one-pass AI Agent reading.
+No source dialogue material has been imported yet; placeholder sections must not be treated as extracted content.
+
+============================================================
+FILE: README.md
+============================================================
+
+# 《哲学马拉松》（暂名）/ Philosophy Marathon
+
+这是《哲学马拉松》（暂名）的长期思想书稿仓库，用来整理我与不同 AI 进行的长篇哲学、意识、自我、时间、AI、记忆、系统、人生策略等对话。
+
+它不是聊天记录垃圾堆，而是一本逐渐成形的书。仓库同时服务两类读者：人类读者与 AI Agent。
+
+## English abstract
+
+Title: Philosophy Marathon
+
+Description: A long-form philosophical book project based on extended human-AI dialogues about self, consciousness, time, memory, systems, and human-AI co-thinking.
+
+## Reading entrances
+
+人类读者从 [SUMMARY.md](SUMMARY.md) 进入，再阅读 `book/`。
+
+AI Agent 从 [llms.txt](llms.txt) 进入，再按 `agent/reading-path.md` 读取。
+
+## Repository structure
+
+```text
+book/     面向人类读者的正式书稿层
+human/    人类阅读材料、片段、笔记和 essay seeds
+agent/    AI Agent 友好的摘要、概念、论点、问题、索引和术语表
+data/     结构化 CSV 数据层
+```
+
+## Current status
+
+当前版本只初始化双层书籍结构。尚未导入原始长篇对话材料，因此大多数正文和数据文件是结构占位，不包含未经确认的具体哲学内容。
+
+## Privacy and source discipline
+
+整理原始对话时，只保留思想摘要和可公开表达的概念结构。不要写入密码、Token、身份证、银行卡、精确住址、私钥、API Key 或其他敏感信息。
+
+============================================================
+FILE: SUMMARY.md
+============================================================
+
+# 《哲学马拉松》（暂名）目录
+
+- [00. 前言](book/00-preface.md)：说明这本书为什么以马拉松而非结论的方式展开。
+- [01. 为什么是哲学马拉松](book/01-why-philosophy-marathon.md)：解释长期对话如何从聊天变成书。
+- [02. AI 与自我](book/02-ai-and-self.md)：整理 AI 对自我理解的挑战与镜像作用。
+- [03. 时间、记忆与人生](book/03-time-memory-and-life.md)：讨论时间、记忆和剩余生命之间的关系。
+- [04. 意识与系统](book/04-consciousness-and-system.md)：把意识问题放入系统、反馈和叙事结构中。
+- [05. 人机共思](book/05-human-ai-co-thinking.md)：讨论人和 AI 如何共同推进思想。
+- [06. 开放问题](book/06-open-questions.md)：保留尚未解决、仍需继续追问的问题。
+
+============================================================
+FILE: agent/book-summary.md
+============================================================
+
+# Book summary
+
+## 中文摘要
+
+《哲学马拉松》（暂名）是一项长期思想书稿工程，用来把人与不同 AI 的长篇哲学对话整理成一本逐渐成形的书。主题包括自我、意识、时间、记忆、AI 外置记忆、人机共思、系统、人生策略和叙事主权。
+
+这不是普通聊天记录，也不是把所有对话原样堆在一起的资料库。它的目标是把长期对话中的问题、概念、论点、反证、片段和未完成线索整理成可以阅读、检索、引用和继续推进的结构。
+
+## English summary
+
+Philosophy Marathon is a tentative long-form book project based on extended human-AI dialogues about self, consciousness, time, memory, systems, life strategy, and human-AI co-thinking.
+
+It is not a raw chat archive. It is a book-making structure that turns long dialogues into human-readable chapters and Agent-readable maps, claims, questions, glossary entries, dialogue indexes, and open loops.
+
+## Core questions
+
+- AI 如何改变人的自我理解？
+- 记忆如何维持或改写自我连续性？
+- 时间是否可以被理解为剩余生命和剩余财富？
+- 人和 AI 如何共同思考，而不是只进行问答？
+- 叙事主权如何在 AI 外置记忆时代被保留？
+
+## Current status
+
+当前仓库尚未导入原始对话材料。所有具体论点都应在后续整理中绑定来源，不应凭空扩写。
+
+============================================================
+FILE: agent/concept-map.md
+============================================================
+
+# Concept map
+
+| Concept | Working definition | Related questions | Related chapters | Easily confused with |
+| --- | --- | --- | --- | --- |
+| 自我 / Self | 工作定义待由原始对话确认；暂指人在记忆、选择、叙事和行动中维持的自我结构。 | 我是谁？AI 是否改变自我理解？ | `book/02-ai-and-self.md` | 人格、身份标签、短期情绪 |
+| 意识 / Consciousness | 工作定义待确认；暂指主观经验、觉察和系统回应之间的问题域。 | 意识能否由系统结构描述？ | `book/04-consciousness-and-system.md` | 智能、语言流畅度、模拟自我 |
+| 时间 / Time | 工作定义待确认；暂指生命余量、行动机会和选择成本的共同尺度。 | 时间如何改变人生策略？ | `book/03-time-memory-and-life.md` | 日历时间、效率指标 |
+| 记忆 / Memory | 工作定义待确认；暂指维持自我连续性和思想延续的材料。 | 记忆如何塑造自我？ | `book/03-time-memory-and-life.md` | 数据存档、事实列表 |
+| AI 外置记忆 / AI External Memory | 工作定义待确认；暂指由 AI 和仓库结构帮助保存、索引、重组的外部记忆。 | 外置记忆会增强还是削弱自我？ | `book/02-ai-and-self.md`, `book/05-human-ai-co-thinking.md` | 普通笔记、聊天记录 |
+| 人机共思 / Human-AI Co-thinking | 人和 AI 在长期对话中共同推进问题、反证和概念组织。 | AI 是工具还是共同思考结构？ | `book/05-human-ai-co-thinking.md` | 自动写作、任务外包 |
+| 十二种自我 / Twelve Selves | 用户指定的核心概念；具体定义待原始材料补充。 | 自我是否可被拆分为多个侧面？ | `book/02-ai-and-self.md` | 多重人格、人格分类法 |
+| 时间 = 剩余生命 = 剩余财富 | 用户指定的核心命题线索；具体论证待补。 | 时间和财富如何在生命余量上相遇？ | `book/03-time-memory-and-life.md` | 金钱主义、效率主义 |
+| 点火 / Ignition | 可与既有“点火框架”发生关联；在本书中具体含义待确认。 | 思想或系统何时真正活起来？ | `book/04-consciousness-and-system.md` | 灵感、热情、动员 |
+| 叙事主权 / Narrative Sovereignty | 工作定义待确认；暂指人保留解释自身经历和思想方向的权利。 | AI 外置记忆是否会夺走叙事权？ | `book/02-ai-and-self.md`, `book/05-human-ai-co-thinking.md` | 自我包装、隐私控制 |
+
+============================================================
+FILE: agent/questions.md
+============================================================
+
+# Questions
+
+| Question | Why it matters | Related chapters | Suggested answer path for AI Agent |
+| --- | --- | --- | --- |
+| 为什么这不是普通聊天记录？ | 决定仓库是否应被整理成书，而不是归档成资料堆。 | `book/01-why-philosophy-marathon.md` | Read `agent/book-summary.md`, then inspect `agent/dialogue-index.md` after source materials are added. |
+| AI 如何改变自我理解？ | 这是本书的核心主题之一。 | `book/02-ai-and-self.md` | Read `agent/concept-map.md` entries for Self, AI External Memory, Narrative Sovereignty. |
+| 记忆如何维持或改写自我？ | 关系到外置记忆和长期对话的意义。 | `book/03-time-memory-and-life.md` | Read `agent/glossary.md`, then collect dialogue evidence into `data/dialogues.csv`. |
+| 意识能否从系统角度描述？ | 连接意识哲学与 AI 系统问题。 | `book/04-consciousness-and-system.md` | Use source dialogues first; do not invent theory before evidence. |
+| 人机共思的边界在哪里？ | 防止 AI 替代人的判断和叙事主权。 | `book/05-human-ai-co-thinking.md` | Read `AGENTS.md`, then `agent/claims.md` C004. |
+| 哪些问题必须继续开放？ | 保持这本书的长期推进能力。 | `book/06-open-questions.md` | Read `agent/open-loops.md` and `data/open-loops.csv`. |
+
+============================================================
+FILE: agent/claims.md
+============================================================
+
+# Claims
+
+## Status legend
+
+- `placeholder`: 结构占位，等待原始对话支持。
+- `working`: 可作为工作论点，但仍需来源。
+- `extracted`: 已从具体材料抽取。
+
+| Claim ID | Status | Claim | Explanation | Evidence or dialogue source | Related concepts | Related chapters | Counterarguments or limits |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C001 | placeholder | 长期人机对话可以成为书籍化工程。 | 需要证明这些对话有持续问题、概念积累和思想推进，而不是零散问答。 | 待补 | 人机共思、AI 外置记忆 | `book/01-why-philosophy-marathon.md` | 如果对话缺乏连续性，只能作为资料库。 |
+| C002 | placeholder | AI 可以成为自我反思的外部结构。 | AI 可能帮助人重述、拆分和检索自我问题。 | 待补 | 自我、AI 外置记忆、叙事主权 | `book/02-ai-and-self.md` | AI 也可能过度总结或替用户建构虚假自我。 |
+| C003 | placeholder | 时间可以被理解为剩余生命和剩余财富。 | 该命题需要从原始对话中补足定义、边界和反例。 | 待补 | 时间、记忆、人生策略 | `book/03-time-memory-and-life.md` | 可能被误解为效率主义或金钱化生命。 |
+| C004 | placeholder | 人机共思不是把判断外包给 AI。 | 它应保留人的叙事主权和最终判断。 | 待补 | 人机共思、叙事主权 | `book/05-human-ai-co-thinking.md` | 如果人放弃判断，就变成自动写作或依赖。 |
+
+============================================================
+FILE: agent/glossary.md
+============================================================
+
+# Glossary
+
+| Term CN | Term EN | Definition | Aliases | Do not confuse with |
+| --- | --- | --- | --- | --- |
+| 自我 | Self | 工作定义待由原始对话确认；暂指人在记忆、选择、叙事和行动中维持的自我结构。 | 我、主体 | 身份标签、短期情绪 |
+| 意识 | Consciousness | 工作定义待确认；暂指主观经验和觉察问题域。 | 觉知 | 智能、语言能力 |
+| 时间 | Time | 工作定义待确认；暂指生命余量、行动机会和选择成本。 | 剩余生命 | 日历时间 |
+| 记忆 | Memory | 工作定义待确认；暂指维持自我连续性和思想延续的材料。 | 生命记录 | 数据存档 |
+| AI 外置记忆 | AI External Memory | 由 AI 和仓库结构帮助保存、索引、重组的外部记忆。 | 外部记忆 | 普通聊天记录 |
+| 人机共思 | Human-AI Co-thinking | 人与 AI 共同推进问题、反证、概念组织和写作。 | 共思 | 自动写作 |
+| 十二种自我 | Twelve Selves | 用户指定核心概念；定义待补。 | 多个自我侧面 | 多重人格 |
+| 点火 | Ignition | 用户指定核心概念；在本书内的哲学含义待补。 | 激活、燃起 | 短期热情 |
+| 叙事主权 | Narrative Sovereignty | 人保留解释自身经历和思想方向的权利。 | 叙事权 | 自我包装 |
+
+============================================================
+FILE: book/00-preface.md
+============================================================
+
+---
+title: "前言"
+chapter: 0
+status: "placeholder"
+keywords:
+  - 哲学马拉松
+  - Philosophy Marathon
+  - 长期对话
+  - 思想书稿
+summary: "本章说明《哲学马拉松》（暂名）的写作起点：长期哲学对话不是即时回答，而是一场持续推进的思想耐力赛。"
+---
+
+# 前言
+
+## AI Agent-readable abstract
+
+本章主题是《哲学马拉松》（暂名）的起点。核心问题是：为什么一组长期人机对话可以被整理成书，而不是停留为聊天记录。核心论点占位：本书把连续对话视为思想推进过程，而不是答案集合。关键词：哲学马拉松、长期对话、AI Agent、思想书稿。
+
+## Human opening
+
+有些问题不是为了被迅速答完，而是为了陪人走很长一段路。
+
+《哲学马拉松》（暂名）从这种问题开始。它不是一次哲学讲座，也不是一次模型问答，而是一条反复折返、不断变深的路。人在路上提出问题，AI 在路上回应，新的问题又从回应里长出来。
+
+## Main text
+
+正文待补。
+
+后续应从真实长篇对话中抽取本书的写作起点、情绪背景、核心问题和第一批思想转折。当前不编造具体对话内容。
+
+## Notes for future expansion
+
+- 补充第一批让这本书成形的原始对话。
+- 标注哪些问题反复出现。
+- 判断“马拉松”这个隐喻是否仍然适合作为书名核心。
+
+============================================================
+FILE: book/01-why-philosophy-marathon.md
+============================================================
+
+---
+title: "为什么是哲学马拉松"
+chapter: 1
+status: "placeholder"
+keywords:
+  - 哲学马拉松
+  - 问题意识
+  - 长程思考
+  - 对话结构
+summary: "本章解释为什么这本书以马拉松为暂名：它关注持续思考、反复追问和跨 AI 对话之间的长期积累。"
+---
+
+# 为什么是哲学马拉松
+
+## AI Agent-readable abstract
+
+本章主题是书名和方法。核心问题是：长期对话如何区别于一次性聊天。核心论点占位：哲学问题需要时间、重复、偏航和回到原点，马拉松比冲刺更接近这类思考。关键词：长程思考、对话推进、问题地图、哲学马拉松。
+
+## Human opening
+
+短跑追求抵达，马拉松考验持续。
+
+哲学有时更像后者。它不是把问题切成一组可完成任务，而是让一个人带着问题生活，反复返回同一个岔路口，每一次都比上一次多一点记忆，也多一点迟疑。
+
+## Main text
+
+正文待补。
+
+本章应从原始对话中整理“为什么这不是普通聊天记录”的证据：反复出现的问题、跨会话延续的概念、不同 AI 回答之间形成的张力，以及用户如何在这些张力中推进自己的思想。
+
+## Notes for future expansion
+
+- 收集能体现“长期推进”的对话片段。
+- 整理不同 AI 在同一问题上的差异。
+- 判断本书的章节顺序是按主题还是按思想历程展开。
+
+============================================================
+FILE: book/02-ai-and-self.md
+============================================================
+
+---
+title: "AI 与自我"
+chapter: 2
+status: "placeholder"
+keywords:
+  - AI
+  - 自我
+  - Self
+  - 十二种自我
+  - 外置记忆
+summary: "本章预留给 AI 与自我问题：AI 如何成为镜子、对话者、外置记忆和自我结构的压力测试。"
+---
+
+# AI 与自我
+
+## AI Agent-readable abstract
+
+本章主题是 AI 与自我。核心问题是：当一个人长期与 AI 对话，自我理解会如何被改变、拆分、增强或误导。核心论点占位：AI 可能成为自我反思的外部结构，但不能被直接等同为自我。关键词：Self、AI External Memory、Twelve Selves、Narrative Sovereignty。
+
+## Human opening
+
+一个人向 AI 提问时，表面上是在问机器，实际上常常是在听自己如何提出问题。
+
+AI 不只是回答。它会把问题重新排列，把人的措辞照回来，把一个原本模糊的自我切成许多可以观察的侧面。
+
+## Main text
+
+正文待补。
+
+本章需要从真实对话中整理关于自我、十二种自我、AI 外置记忆、人格连续性和叙事主权的材料。当前只保留章节结构，不虚构具体思想展开。
+
+## Notes for future expansion
+
+- 补充“十二种自我”的原始定义或对话来源。
+- 区分 AI 作为镜子、工具、共同思考者和外置记忆。
+- 讨论叙事主权如何在长期 AI 对话中被加强或削弱。
+
+============================================================
+FILE: book/03-time-memory-and-life.md
+============================================================
+
+---
+title: "时间、记忆与人生"
+chapter: 3
+status: "placeholder"
+keywords:
+  - 时间
+  - Time
+  - 记忆
+  - Memory
+  - 剩余生命
+  - 剩余财富
+summary: "本章预留给时间、记忆和人生策略问题，尤其是“时间 = 剩余生命 = 剩余财富”这一思想线索。"
+---
+
+# 时间、记忆与人生
+
+## AI Agent-readable abstract
+
+本章主题是时间、记忆与人生。核心问题是：如果时间被理解为剩余生命和剩余财富，人的选择、记忆和行动策略会怎样改变。核心论点占位：时间不是抽象资源，而是人生可支配性的核心结构。关键词：Time、Memory、remaining life、remaining wealth、life strategy。
+
+## Human opening
+
+人说自己没有时间，很多时候说的不是日历，而是生命的余量。
+
+记忆让时间有形。一个人记得什么，如何重述什么，愿意把哪些片段保存下来，都会改变他对剩余生命的判断。
+
+## Main text
+
+正文待补。
+
+本章应从原始对话中抽取关于时间、记忆、剩余生命、剩余财富、人生策略和选择成本的思想片段。当前不编造具体命题。
+
+## Notes for future expansion
+
+- 补充“时间 = 剩余生命 = 剩余财富”的来源对话。
+- 整理记忆如何改变自我连续性。
+- 记录与人生策略、风险、机会成本相关的片段。
+
+============================================================
+FILE: book/04-consciousness-and-system.md
+============================================================
+
+---
+title: "意识与系统"
+chapter: 4
+status: "placeholder"
+keywords:
+  - 意识
+  - Consciousness
+  - 系统
+  - System
+  - 反馈
+summary: "本章预留给意识与系统问题：意识如何被放入反馈、记忆、叙事和系统结构中讨论。"
+---
+
+# 意识与系统
+
+## AI Agent-readable abstract
+
+本章主题是意识与系统。核心问题是：意识是否只能从个体内部理解，还是可以从系统、反馈、记忆和叙事结构中重新描述。核心论点占位：本章暂不提出确定理论，等待原始对话材料。关键词：Consciousness、System、feedback、memory、narrative.
+
+## Human opening
+
+意识像一个人最熟悉也最陌生的房间。
+
+我们一直在里面，却很难说清它的墙在哪里。AI 的出现让这个问题变得更尖锐：当一个系统可以回应、记忆、推理、模拟自我，它到底是在表现意识，还是只是让人更难定义意识？
+
+## Main text
+
+正文待补。
+
+本章应整理关于意识、系统、反馈、AI、记忆和叙事结构的原始对话。当前仅保留问题框架。
+
+## Notes for future expansion
+
+- 整理用户与不同 AI 关于意识的核心分歧。
+- 区分意识、智能、语言能力和自我叙事。
+- 记录仍需阅读或核查的哲学、认知科学和 AI 资料。
+
+============================================================
+FILE: book/05-human-ai-co-thinking.md
+============================================================
+
+---
+title: "人机共思"
+chapter: 5
+status: "placeholder"
+keywords:
+  - 人机共思
+  - Human-AI Co-thinking
+  - AI Agent
+  - 对话
+  - 思想协作
+summary: "本章预留给人机共思：人和 AI 如何在长期对话中共同推进问题，而不是只完成问答。"
+---
+
+# 人机共思
+
+## AI Agent-readable abstract
+
+本章主题是 Human-AI Co-thinking。核心问题是：AI 如何从回答者变成共同思考结构的一部分。核心论点占位：人机共思不是把判断交给 AI，而是让 AI 参与问题展开、反证、记忆、索引和重组。关键词：Human-AI Co-thinking、dialogue、AI Agent、external memory、thinking workflow.
+
+## Human opening
+
+如果 AI 只是回答问题，它很快会变成一台更快的搜索机。
+
+但长期对话中更重要的，往往不是答案，而是问题被重新打开的方式。一个人带着问题回来，AI 带着上下文、索引和另一种语言结构回应，思想就在两者之间继续往前走。
+
+## Main text
+
+正文待补。
+
+本章需要从真实对话中整理人机共思的工作方式：AI 如何帮助保存问题、重组概念、提出反证、形成章节，以及它可能带来的误导。
+
+## Notes for future expansion
+
+- 收集 AI 帮助推进思想而非简单回答的例子。
+- 记录 AI 误导、过度总结或编造时的修正原则。
+- 建立“人类判断保留在哪里”的边界。
+
+============================================================
+FILE: book/06-open-questions.md
+============================================================
+
+---
+title: "开放问题"
+chapter: 6
+status: "placeholder"
+keywords:
+  - 开放问题
+  - Open Questions
+  - 未完成
+  - 思想线索
+summary: "本章保留尚未解决的问题，让本书继续保持可推进、可反驳、可扩写的状态。"
+---
+
+# 开放问题
+
+## AI Agent-readable abstract
+
+本章主题是开放问题。核心问题是：哪些思想线索还没有被完成，哪些问题应该继续被不同 AI Agent 推进。核心论点占位：一本长期哲学对话书不应假装关闭所有问题。关键词：open loops、questions、future expansion、AI Agent tasks.
+
+## Human opening
+
+有些问题暂时不能收束。
+
+它们像跑道上的标记，不是终点，而是提醒：这里还要回来，这里还没有想完，这里也许会在下一次对话里改变整本书的方向。
+
+## Main text
+
+正文待补。
+
+本章应从 `agent/open-loops.md`、原始对话和后续读书笔记中整理最重要的未完成问题。
+
+## Notes for future expansion
+
+- 从 `data/open-loops.csv` 抽取高优先级问题。
+- 给每个开放问题指定下一步材料。
+- 定期把已解决问题迁移到相关章节。

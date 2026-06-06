@@ -1,0 +1,5 @@
+claim_id,claim,explanation,evidence,related_concepts,related_chapters,status
+"C001","长期人机对话可以成为书籍化工程","需要原始对话证明连续问题和思想推进","待补","人机共思;AI外置记忆","book/01-why-philosophy-marathon.md","placeholder"
+"C002","AI 可以成为自我反思的外部结构","需要原始对话证明 AI 如何帮助重述和拆分自我问题","待补","自我;AI外置记忆;叙事主权","book/02-ai-and-self.md","placeholder"
+"C003","时间可以被理解为剩余生命和剩余财富","需要原始对话补充定义、边界和反例","待补","时间;记忆;人生策略","book/03-time-memory-and-life.md","placeholder"
+"C004","人机共思不是把判断外包给 AI","需要原始工作流证明人的判断如何保留","待补","人机共思;叙事主权","book/05-human-ai-co-thinking.md","placeholder"
