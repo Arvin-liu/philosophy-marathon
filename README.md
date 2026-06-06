@@ -33,3 +33,26 @@ data/     结构化 CSV 数据层
 
 整理原始对话时，只保留思想摘要和可公开表达的概念结构。不要写入密码、Token、身份证、银行卡、精确住址、私钥、API Key 或其他敏感信息。
 
+## License / 许可协议
+
+本仓库是一个非商业开放内容项目。
+
+本仓库中的书稿正文、概念说明、章节内容、案例整理、Agent-readable materials，除特别说明外，均采用：
+
+License: **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**  
+中文：**知识共享署名—非商业性使用—相同方式共享 4.0 国际许可协议**  
+Short name: **CC BY-NC-SA 4.0**
+
+你可以自由阅读、复制、传播、引用、改编本作品，但必须遵守以下条件：
+
+1. **署名 Attribution**：必须保留作者署名与原始仓库链接。
+2. **非商业 NonCommercial**：不得将本作品或其改编作品用于商业目的。
+3. **相同方式共享 ShareAlike**：如果你改编、转换或基于本作品继续创作，发布时必须采用相同或兼容的许可协议。
+4. **不得暗示背书 No endorsement**：不得暗示原作者认可你的使用方式、观点或改编版本。
+
+完整协议见：
+
+- `LICENSE`
+- `NOTICE.md`
+
+说明：本项目更准确地说是“非商业开放内容项目”，而不是 OSI 意义上的软件开源项目。因为本项目禁止商业使用。

@@ -53,3 +53,15 @@ It is not a raw chat archive. It is a book-making structure for turning long dia
 
 Do not invent dialogue content. Do not store passwords, tokens, IDs, bank cards, precise addresses, private keys, API keys, or sensitive personal data. When summarizing raw dialogues, keep philosophical content and generalize sensitive details.
 
+## License
+
+This repository is licensed as an open non-commercial content project.
+
+Unless otherwise noted, the manuscript, concepts, chapters, case notes, and Agent-readable materials are licensed under:
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International  
+CC BY-NC-SA 4.0
+
+AI Agents may read, summarize, cite, and transform the materials for non-commercial purposes, provided attribution, non-commercial use, and share-alike terms are respected.
+
+Commercial use, commercial redistribution, paid packaging, commercial training datasets, commercial publishing, or commercial course use requires explicit written permission from the author.
