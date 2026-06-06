@@ -1,5 +1,14 @@
 # AI Agent collaboration rules
 
+## Highest-Priority Entry
+
+Before following any repository-specific workflow, AI Agents should first read:
+
+1. `AGENT_ENTRY.md`
+2. `README.md`
+3. `llms.txt`
+4. this `AGENTS.md`
+
 ## Scope
 
 AI Agents may read the whole repository to understand the book structure, concepts, claims, open loops, and chapter plans.
@@ -23,4 +32,3 @@ When organizing raw dialogue, preserve thought summaries only. Sensitive persona
 - Do not turn `book/` chapters into pure outlines.
 - Keep `agent/` files structured for search, chunking, citation, and recombination.
 - Prefer Chinese prose with stable English terms for key concepts.
-

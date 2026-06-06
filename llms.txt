@@ -10,6 +10,12 @@ This repository is a long-form philosophical book project based on extended huma
 
 It is not a raw chat archive. It is a book-making structure for turning long dialogues into readable chapters, conceptual maps, claims, questions, and reusable research material.
 
+## Agent Entry
+
+AI Agents should read `AGENT_ENTRY.md` before writing to this repository.
+
+`AGENT_ENTRY.md` defines what may be saved, where it should be saved, which files are read-only or stable, and how to handle user requests to store valuable conversation content.
+
 ## Project Type
 
 This repository is an Agent-readable book project and an AI-readable open knowledge repository.

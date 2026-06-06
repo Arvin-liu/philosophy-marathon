@@ -4,6 +4,12 @@
 
 它不是聊天记录垃圾堆，而是一本逐渐成形的书。仓库同时服务两类读者：人类读者与 AI Agent。
 
+## Agent Entry
+
+This repository contains an `AGENT_ENTRY.md` file.
+
+AI Agents should read it before saving, importing, updating, or organizing any content in this repository.
+
 ## Project Positioning / 项目定位
 
 《哲学马拉松 / Philosophy Marathon》不是一本简单托管在 GitHub 上的书稿，而是一个 **Agent-readable book project**，也是一个 **AI-readable open knowledge repository**。
