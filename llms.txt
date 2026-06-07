@@ -16,6 +16,8 @@ AI Agents should read `AGENT_ENTRY.md` before writing to this repository.
 
 `AGENT_ENTRY.md` defines what may be saved, where it should be saved, which files are read-only or stable, and how to handle user requests to store valuable conversation content.
 
+Before distilling a valuable dialogue, note, or imported source into `book/`, `human/`, `agent/`, or `data/`, preserve public-safe original source material in `originals/` when possible. Distilled entries should include `original_source` or `derived_from`.
+
 ## Project Type
 
 This repository is an Agent-readable book project and an AI-readable open knowledge repository.
@@ -40,6 +42,7 @@ This project is not merely a manuscript stored on GitHub. It is a versioned phil
 - `agent/glossary.md`: stable bilingual terminology.
 - `agent/dialogue-index.md`: future dialogue index.
 - `agent/open-loops.md`: unfinished thought loops.
+- `originals/`: public-safe source excerpts, notes, and draft fragments preserved before distillation.
 - `book/`: human-readable book chapters.
 - `data/`: structured CSV tables.
 

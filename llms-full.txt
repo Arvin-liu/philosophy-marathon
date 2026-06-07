@@ -28,6 +28,14 @@ AI Agents should start with `llms.txt`, `llms-full.txt`, `agent/`, and `data/`.
 
 This project is not merely a manuscript stored on GitHub. It is a versioned philosophical book and open content knowledge repository designed to be read, searched, cited, transformed, and extended by both humans and AI Agents.
 
+## Original Source Preservation
+
+When saving valuable material into this repository, preserve public-safe original source material before distilling it into chapters, concepts, claims, questions, or dialogue indexes.
+
+Use `originals/` for selected source excerpts, notes, and draft fragments that can safely exist in a public repository. Distilled outputs should include `original_source` or `derived_from` when applicable.
+
+Do not store complete raw private conversations, sensitive personal details, secrets, or unreviewed private material in this public repository.
+
 ============================================================
 FILE: README.md
 ============================================================

@@ -10,6 +10,8 @@ This repository contains an `AGENT_ENTRY.md` file.
 
 AI Agents should read it before saving, importing, updating, or organizing any content in this repository.
 
+Agent saves should preserve public-safe original source material before distilling it into chapters, concepts, claims, questions, or dialogue indexes. Use `originals/` for selected source excerpts, notes, and draft fragments that can safely exist in a public repository.
+
 ## Project Positioning / 项目定位
 
 《哲学马拉松 / Philosophy Marathon》不是一本简单托管在 GitHub 上的书稿，而是一个 **Agent-readable book project**，也是一个 **AI-readable open knowledge repository**。
@@ -45,6 +47,7 @@ AI Agent 从 [llms.txt](llms.txt) 进入，再按 `agent/reading-path.md` 读取
 ```text
 book/     面向人类读者的正式书稿层
 human/    人类阅读材料、片段、笔记和 essay seeds
+originals/ 可公开的原文摘录、来源笔记和草稿片段
 agent/    AI Agent 友好的摘要、概念、论点、问题、索引和术语表
 data/     结构化 CSV 数据层
 ```
@@ -55,7 +58,7 @@ data/     结构化 CSV 数据层
 
 ## Privacy and source discipline
 
-整理原始对话时，只保留思想摘要和可公开表达的概念结构。不要写入密码、Token、身份证、银行卡、精确住址、私钥、API Key 或其他敏感信息。
+整理原始对话时，优先保留可公开、已脱敏的原文摘录或来源笔记，并让后续提炼内容能回链到原文。私密长对话不应完整进入本公开仓库；如其中有可公开的哲学洞见，只保留脱敏片段、思想摘要和可公开表达的概念结构。不要写入密码、Token、身份证、银行卡、精确住址、私钥、API Key 或其他敏感信息。
 
 ## License / 许可协议
 

@@ -22,7 +22,7 @@ Before writing anything, read in this order:
 4. `AGENTS.md` if present
 5. repository-specific protocol files if present
 6. `agent/reading-path.md` if present
-7. relevant files under `agent/`, `projects/`, `knowledge/`, `book/`, `corpus/`, `data/`, or `editor/`
+7. relevant files under `agent/`, `book/`, `human/`, `originals/`, `data/`, or `editor/`
 
 ## Write Safety
 
@@ -37,11 +37,22 @@ Before writing:
 7. Prefer proposals, checkpoints, inbox, or editor files before stable memory.
 8. Log important changes.
 
+## Original Source Preservation Rule
+
+Do not save only distilled summaries when original source material can be safely preserved.
+
+For any valuable saved item, first preserve the relevant original wording, source excerpt, dialogue fragment, imported note, or draft fragment in the repository's original-source layer. Then write the distilled book, Agent-readable, or data entry with a clear link back to the original source.
+
+In this public repository, preserve only public-safe originals. Do not store raw private conversations, sensitive personal details, secrets, or unreviewed private material. If a private conversation contains a public philosophical insight, save a sanitized source excerpt or a summary-only source note and mark the original as `sensitive-summary-only` or `do-not-store`.
+
+Every distilled item should include `original_source` or `derived_from` when applicable.
+
 ## Required Metadata
 
 Every saved item should include, when applicable:
 
 - source
+- original_source or derived_from
 - date
 - timestamp
 - status
@@ -101,6 +112,7 @@ Do not save general curiosity notes, technical workflow notes, private memory, w
 
 ## Preferred Storage Locations
 
+- Public-safe original dialogue excerpts, source notes, and draft fragments: `originals/`
 - Book chapter material: `book/`
 - Dialogue fragments: `human/dialogue-fragments.md`
 - Essay seeds: `human/essay-seeds.md`

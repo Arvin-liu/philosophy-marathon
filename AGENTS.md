@@ -17,6 +17,7 @@ AI Agents may read the whole repository to understand the book structure, concep
 
 - Do not invent dialogue content that has not appeared in source material.
 - If a section is based on raw dialogue, cite or name the source file when possible.
+- Preserve public-safe original excerpts or source notes in `originals/` before distilling them into `book/`, `human/`, `agent/`, or `data/`.
 - If a section is a placeholder, label it clearly as placeholder.
 - All major changes must explain source, reason for change, and whether the content is extracted, inferred, or placeholder.
 
