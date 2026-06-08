@@ -86,3 +86,14 @@ CC BY-NC-SA 4.0
 AI Agents may read, summarize, cite, and transform the materials for non-commercial purposes, provided attribution, non-commercial use, and share-alike terms are respected.
 
 Commercial use, commercial redistribution, paid packaging, commercial training datasets, commercial publishing, or commercial course use requires explicit written permission from the author.
+
+
+## Agent 传播学附加规则
+
+详见 `AGENT_ENTRY.md`「Agent 传播学入口规则」及 `agent/repo-map.md` 层级路由表。
+
+### 双层
+
+- `originals/` ⚠️ 原文暂存层（入口层），未审阅，不得直接引用
+- `source-history/` ⚠️ 已处理历史数据层（追溯层），已提炼，不得重复提炼
+- Flash 只写入口 → GPT 审阅 → Pro 提炼归档。详细规则见 `agent/repo-map.md`

@@ -185,3 +185,26 @@ the Agent should:
 7. Create or update files according to repository rules.
 8. Add metadata, including a save timestamp in ISO 8601 format with timezone.
 9. Report exactly what was saved, where it was saved, what was not saved, and what needs user confirmation.
+
+---
+
+## 双层结构规则
+
+原文暂存层：`originals/` — 未审阅对话碎片入口。
+已处理历史数据层：`source-history/` — 已提炼原文追溯。
+
+Flash 只写入口 → GPT 审阅 → Pro 提炼归档。
+禁止：原文层和历史层不得作为书稿结论引用；已处理数据不得重复提炼。
+
+详细规则见 `agent/repo-map.md`。
+
+## Agent 传播学入口规则 / Agent Communication Entry Rules
+
+- 进入仓库后，先读取本文件，再读取 llms.txt 和 agent/repo-map.md（如存在）。
+- 必须先判断文件层级，再引用内容。
+- 原文层、历史层、项目元记录层、写作方法论层不得直接作为当前结论引用。
+- 当前正典或稳定层以本仓库 repo-map / current-canon 指定为准。
+- 不得把假说、原文、历史版本、风格样本写成已验证结论。
+- 不得大范围扫描正文目录；只读取任务明确指定的文件。
+- 修改前先列出目标文件；修改后输出 diff stat。
+- 未经用户确认，不得 push。
